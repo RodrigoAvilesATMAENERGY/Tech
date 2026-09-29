@@ -1,0 +1,20 @@
+{
+  "name": "atma-tech-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Android and iOS wrapper for the ATMA Energy technician portal",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap open android",
+    "ios": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
